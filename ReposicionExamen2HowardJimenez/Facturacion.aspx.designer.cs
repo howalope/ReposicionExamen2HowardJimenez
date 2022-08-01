@@ -42,6 +42,51 @@ namespace ReposicionExamen2HowardJimenez
         protected global::System.Web.UI.WebControls.Label LFecha;
 
         /// <summary>
+        /// TMonto control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox TMonto;
+
+        /// <summary>
+        /// TDescuento control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox TDescuento;
+
+        /// <summary>
+        /// BAgregar control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button BAgregar;
+
+        /// <summary>
+        /// BSalvar control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button BSalvar;
+
+        /// <summary>
+        /// BRegresar control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button BRegresar;
+
+        /// <summary>
         /// TNombre1 control.
         /// </summary>
         /// <remarks>
@@ -78,12 +123,48 @@ namespace ReposicionExamen2HowardJimenez
         protected global::System.Web.UI.WebControls.TextBox TDireccion1;
 
         /// <summary>
-        /// BRegresar control.
+        /// TMonto1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button BRegresar;
+        protected global::System.Web.UI.WebControls.TextBox TMonto1;
+
+        /// <summary>
+        /// TDescuento1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox TDescuento1;
+
+        /// <summary>
+        /// TSubtotal control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox TSubtotal;
+
+        /// <summary>
+        /// TImpuesto control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox TImpuesto;
+
+        /// <summary>
+        /// TTotal control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox TTotal;
     }
 }
