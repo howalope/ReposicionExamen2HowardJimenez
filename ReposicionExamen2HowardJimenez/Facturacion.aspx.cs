@@ -37,7 +37,7 @@ namespace ReposicionExamen2HowardJimenez
         }
         protected void BSalvar_Click(object sender, EventArgs e)
         {
-            
+            EXAMEN2DB.Insert();
         }
         protected void BRegresar_Click(object sender, EventArgs e)
         {

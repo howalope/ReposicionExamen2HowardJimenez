@@ -78,6 +78,32 @@
     <p>
         &nbsp;</p>
     <p>
-        &nbsp;</p>
+        <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataKeyNames="Cedula" DataSourceID="EXAMEN2DB" Visible="False">
+            <Columns>
+                <asp:BoundField DataField="Nombre" HeaderText="Nombre" SortExpression="Nombre" />
+                <asp:BoundField DataField="Cedula" HeaderText="Cedula" ReadOnly="True" SortExpression="Cedula" />
+                <asp:BoundField DataField="Telefono" HeaderText="Telefono" SortExpression="Telefono" />
+                <asp:BoundField DataField="Direccion" HeaderText="Direccion" SortExpression="Direccion" />
+                <asp:BoundField DataField="Monto" HeaderText="Monto" SortExpression="Monto" />
+                <asp:BoundField DataField="Descuento" HeaderText="Descuento" SortExpression="Descuento" />
+                <asp:BoundField DataField="Subtotal" HeaderText="Subtotal" SortExpression="Subtotal" />
+                <asp:BoundField DataField="Iva" HeaderText="Iva" SortExpression="Iva" />
+                <asp:BoundField DataField="Total" HeaderText="Total" SortExpression="Total" />
+            </Columns>
+        </asp:GridView>
+        <asp:SqlDataSource ID="EXAMEN2DB" runat="server" ConnectionString="<%$ ConnectionStrings:EXAMEN2DBConnectionString %>" InsertCommand="insert into Cliente (Nombre, Cedula, Telefono, Direccion, Monto, Descuento, Subtotal, Iva,Total) values (@Nombre, @Cedula,@Telefono,@Direccion,@Monto,@Descuento,@Subtotal,@Iva,@Total)" SelectCommand="select * From Cliente">
+            <InsertParameters>
+                <asp:ControlParameter ControlID="TNombre1" Name="Nombre" PropertyName="Text" />
+                <asp:ControlParameter ControlID="TCedula1" Name="Cedula" PropertyName="Text" />
+                <asp:ControlParameter ControlID="TTelefono1" Name="Telefono" PropertyName="Text" />
+                <asp:ControlParameter ControlID="TDireccion1" Name="Direccion" PropertyName="Text" />
+                <asp:ControlParameter ControlID="TMonto1" Name="Monto" PropertyName="Text" />
+                <asp:ControlParameter ControlID="TDescuento1" Name="Descuento" PropertyName="Text" />
+                <asp:ControlParameter ControlID="TSubtotal" Name="Subtotal" PropertyName="Text" />
+                <asp:ControlParameter ControlID="TImpuesto" Name="Iva" PropertyName="Text" />
+                <asp:ControlParameter ControlID="TTotal" Name="Total" PropertyName="Text" />
+            </InsertParameters>
+        </asp:SqlDataSource>
+    </p>
     <br />
 </asp:Content>
