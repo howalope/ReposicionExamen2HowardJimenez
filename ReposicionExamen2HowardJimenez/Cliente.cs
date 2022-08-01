@@ -11,14 +11,16 @@ namespace ReposicionExamen2HowardJimenez
         private static string cedula { get; set; }
         private static string telefono { get; set; }
         private static string direccion { get; set; }
+        private static string recibo { get; set; }
         private static float monto { get; set; }
         private static float descuento { get; set; }
         private static float impuesto { get; set; }
         private static float subtotal { get; set; }
         private static float total { get; set; }
         public static int contador { get; set; }
+
         // Constructor
-        public Cliente(string nom, string ced, string tel, string dire, float mont, float desc, float imp, float sub, float tot)
+        public Cliente(string nom, string ced, string tel, string dire, string rec, float mont, float desc, float imp, float sub, float tot)
         {
             nombre = nom;
             cedula = ced;
@@ -29,24 +31,12 @@ namespace ReposicionExamen2HowardJimenez
             subtotal = sub;
             total = tot;
             contador = 0;
+            recibo = rec;
 
         }
 
-        //Atributos de la clase
+        //Atributos de la clase. Set-Get
 
-        //Get
-        public static string GetNombre() { return nombre; }
-        public static string GetCedula() { return cedula; }
-        public static string GetTelefono() { return telefono; }
-        public static string GetDireccion() { return direccion; }
-        public static float GetMonto() { return monto; }
-        public static float GetDescuento() { return descuento; }
-        public static float GetSubtotal() { return subtotal; }
-        public static float GetTotal() { return total; }
-
-        
-
-        //Set
 
         public static void setNombre(String nom)
         {
@@ -82,6 +72,14 @@ namespace ReposicionExamen2HowardJimenez
         {
             return direccion;
         }
+        public static void setRecibo(String rec)
+        {
+            recibo = rec;
+        }
+        public static String getRecibo()
+        {
+            return recibo;
+        }
         public static void setMonto(float mont)
         {
             monto = mont;
@@ -113,6 +111,14 @@ namespace ReposicionExamen2HowardJimenez
         public static float getTotal()
         {
             return total;
+        }
+        public static void setImpuesto(float imp)
+        {
+            impuesto = imp;
+        }
+        public static float getImpuesto()
+        {
+            return impuesto;
         }
         public static void setContador()
         {

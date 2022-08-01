@@ -13,5 +13,49 @@ namespace ReposicionExamen2HowardJimenez
         {
 
         }
+
+        protected void BAgua_Click(object sender, ImageClickEventArgs e)
+        {
+            Cliente.setNombre(TNombre.Text);
+            Cliente.setCedula(TCedula.Text);
+            Cliente.setTelefono(TTelefono.Text);
+            Cliente.setDireccion(TDireccion.Text);
+            Cliente.setRecibo("Recibo de Agua");
+            Cliente.setContador();
+            Response.Redirect("Facturacion.aspx");
+        }
+
+        protected void BElectricidad_Click(object sender, ImageClickEventArgs e)
+        {
+            Cliente.setNombre(TNombre.Text);
+            Cliente.setCedula(TCedula.Text);
+            Cliente.setTelefono(TTelefono.Text);
+            Cliente.setDireccion(TDireccion.Text);
+            Cliente.setRecibo("Recibo de Electricidad");
+            Cliente.setContador();
+            Response.Redirect("Facturacion.aspx");
+        }
+
+        protected void BCable_Click(object sender, ImageClickEventArgs e)
+        {
+            Cliente.setNombre(TNombre.Text);
+            Cliente.setCedula(TCedula.Text);
+            Cliente.setTelefono(TTelefono.Text);
+            Cliente.setDireccion(TDireccion.Text);
+            Cliente.setRecibo("Recibo de Cable e Internet");
+            Cliente.setContador();
+            Response.Redirect("Facturacion.aspx");
+        }
+
+        protected void BTelefono_Click(object sender, ImageClickEventArgs e)
+        {
+            Cliente.setNombre(TNombre.Text);
+            Cliente.setCedula(TCedula.Text);
+            Cliente.setTelefono(TTelefono.Text);
+            Cliente.setDireccion(TDireccion.Text);
+            Cliente.setRecibo("Recibo de Teléfono");
+            Cliente.setContador();
+            Response.Redirect("Facturacion.aspx");
+        }
     }
 }

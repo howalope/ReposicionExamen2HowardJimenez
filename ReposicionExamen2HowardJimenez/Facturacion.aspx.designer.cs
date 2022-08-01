@@ -11,79 +11,79 @@ namespace ReposicionExamen2HowardJimenez
 {
 
 
-    public partial class Inicio
+    public partial class Facturacion
     {
 
         /// <summary>
-        /// BAgua control.
+        /// LRecibo control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ImageButton BAgua;
+        protected global::System.Web.UI.WebControls.Label LRecibo;
 
         /// <summary>
-        /// BElectricidad control.
+        /// LNFactura control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ImageButton BElectricidad;
+        protected global::System.Web.UI.WebControls.Label LNFactura;
 
         /// <summary>
-        /// BCable control.
+        /// LFecha control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ImageButton BCable;
+        protected global::System.Web.UI.WebControls.Label LFecha;
 
         /// <summary>
-        /// BTelefono control.
+        /// TNombre1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ImageButton BTelefono;
+        protected global::System.Web.UI.WebControls.TextBox TNombre1;
 
         /// <summary>
-        /// TNombre control.
+        /// TCedula1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TNombre;
+        protected global::System.Web.UI.WebControls.TextBox TCedula1;
 
         /// <summary>
-        /// TCedula control.
+        /// TTelefono1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TCedula;
+        protected global::System.Web.UI.WebControls.TextBox TTelefono1;
 
         /// <summary>
-        /// TTelefono control.
+        /// TDireccion1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TTelefono;
+        protected global::System.Web.UI.WebControls.TextBox TDireccion1;
 
         /// <summary>
-        /// TDireccion control.
+        /// BRegresar control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TDireccion;
+        protected global::System.Web.UI.WebControls.Button BRegresar;
     }
 }
