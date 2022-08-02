@@ -17,7 +17,7 @@
         <asp:Label ID="LFecha" runat="server"></asp:Label>
     </p>
     <p>
-        Monto:&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+        Monto:&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <asp:TextBox ID="TMonto" runat="server" Height="16px" Width="150px"></asp:TextBox>
     <br />
     <br />
@@ -36,7 +36,7 @@
     <p>
         Sección II: Datos del Cliente:</p>
     <p>
-    Nombre:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    Nombre:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <asp:TextBox ID="TNombre1" runat="server" Height="16px" Width="150px"></asp:TextBox>
     <br />
     <br />
@@ -44,8 +44,7 @@
     <asp:TextBox ID="TCedula1" runat="server" Height="16px" Width="150px"></asp:TextBox>
     <br />
     <br />
-    Teléfono:&nbsp;&nbsp;&nbsp;&nbsp;
-    <asp:TextBox ID="TTelefono1" runat="server" Height="16px" Width="150px"></asp:TextBox>
+    Teléfono:&nbsp;&nbsp; &nbsp;&nbsp; <asp:TextBox ID="TTelefono1" runat="server" Height="16px" Width="150px"></asp:TextBox>
     <br />
     <br />
     Dirección:&nbsp;&nbsp;&nbsp;
@@ -56,7 +55,7 @@
     <p>
         Sección III: Resumen</p>
     <p>
-        Monto:&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;
+        Monto:&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
     <asp:TextBox ID="TMonto1" runat="server" Height="16px" Width="150px"></asp:TextBox>
     <br />
     <br />
@@ -64,15 +63,15 @@
     <asp:TextBox ID="TDescuento1" runat="server" Height="16px" Width="150px"></asp:TextBox>
     <br />
     <br />
-        Subtotal:&nbsp; &nbsp;&nbsp;&nbsp;
+        Subtotal:&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
     <asp:TextBox ID="TSubtotal" runat="server" Height="16px" Width="150px"></asp:TextBox>
     <br />
     <br />
-        IVA:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+        IVA:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;
     <asp:TextBox ID="TImpuesto" runat="server" Height="16px" Width="150px"></asp:TextBox>
     </p>
     <p>
-        Total:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
+        Total:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
     <asp:TextBox ID="TTotal" runat="server" Height="16px" Width="150px"></asp:TextBox>
     </p>
     <p>

@@ -1,7 +1,26 @@
 ﻿
 
 body {
-    background-color: #06aac7;
+    background-color: #FFF5EE;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 200px;
+    margin-left: 200px;
 }
 
 
+p {
+    font-family: fantasy;
+    color: #008080;
+}
+
+h1 {
+    font-family: cursive;
+    text-align: center;
+    color: #556B2F;
+}
+
+p1 {
+    font-family: fantasy;
+    color: #008080;
+}

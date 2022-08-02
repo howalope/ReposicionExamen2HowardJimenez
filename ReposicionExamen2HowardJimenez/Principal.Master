@@ -20,9 +20,9 @@
     <form id="form1" runat="server">
         <div style="text-align: center">
             <img class="auto-style1" src="images/logo%20Muni.png" />&nbsp;&nbsp;&nbsp; 
-                <h>
+                <h1>
                     <br />
-                    Facturación Servicios Publicos</h></div>
+                    Facturación Servicios Publicos</h1></div>
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
                 &nbsp;
             </asp:ContentPlaceHolder>

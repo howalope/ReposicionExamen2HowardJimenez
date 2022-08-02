@@ -2,8 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <p>
-        Servicios Publicos</p>
+
     <br />
     <asp:ImageButton ID="BAgua" runat="server" Height="61px" ImageUrl="~/images/Water.jpg" Width="73px" OnClick="BAgua_Click" />
 &nbsp;&nbsp;&nbsp;&nbsp;
@@ -18,19 +17,18 @@
 
     <p1>Datos de facturación:<br />
     <br />
-    Nombre:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    Nombre:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
     <asp:TextBox ID="TNombre" runat="server" Height="16px" Width="150px"></asp:TextBox>
     <br />
     <br />
-    Cédula:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    Cédula:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
     <asp:TextBox ID="TCedula" runat="server" Height="16px" Width="150px"></asp:TextBox>
     <br />
     <br />
-    Teléfono:&nbsp;&nbsp;&nbsp;&nbsp;
-    <asp:TextBox ID="TTelefono" runat="server" Height="16px" Width="150px"></asp:TextBox>
+    Teléfono:&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; <asp:TextBox ID="TTelefono" runat="server" Height="16px" Width="150px"></asp:TextBox>
     <br />
     <br />
-    Dirección&nbsp;&nbsp;&nbsp;&nbsp;
+    Dirección&nbsp;&nbsp;&nbsp; &nbsp;
     <asp:TextBox ID="TDireccion" runat="server" Height="16px" Width="150px"></asp:TextBox>
     <br />
     <br />
