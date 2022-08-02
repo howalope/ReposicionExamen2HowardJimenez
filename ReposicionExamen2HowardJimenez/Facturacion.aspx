@@ -3,7 +3,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <p style="text-align: left">
-        &nbsp;Recibo:
+        Recibo:
         <asp:Label ID="LRecibo" runat="server"></asp:Label>
     </p>
     <p>
@@ -44,7 +44,8 @@
     <asp:TextBox ID="TCedula1" runat="server" Height="16px" Width="150px"></asp:TextBox>
     <br />
     <br />
-    Teléfono:&nbsp;&nbsp; &nbsp;&nbsp; <asp:TextBox ID="TTelefono1" runat="server" Height="16px" Width="150px"></asp:TextBox>
+    Teléfono:&nbsp;&nbsp; &nbsp;&nbsp;
+    <asp:TextBox ID="TTelefono1" runat="server" Height="16px" Width="150px"></asp:TextBox>
     <br />
     <br />
     Dirección:&nbsp;&nbsp;&nbsp;
