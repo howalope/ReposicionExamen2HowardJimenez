@@ -4,6 +4,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <p>
         Servicios Publicos</p>
+    <br />
     <asp:ImageButton ID="BAgua" runat="server" Height="61px" ImageUrl="~/images/Water.jpg" Width="73px" OnClick="BAgua_Click" />
 &nbsp;&nbsp;&nbsp;&nbsp;
     <asp:ImageButton ID="BElectricidad" runat="server" Height="61px" ImageUrl="~/images/Electric.jpg" Width="73px" OnClick="BElectricidad_Click" />

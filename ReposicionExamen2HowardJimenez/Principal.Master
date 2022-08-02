@@ -4,7 +4,9 @@
 
 <html>
 <head runat="server">
-    <title></title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Inicio</title>
+    <link rel="stylesheet" type="text/css" href="pageDesign.css"/>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
     <style type="text/css">
@@ -16,12 +18,15 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <div>
-            <img class="auto-style1" src="images/logo%20Muni.png" /></div>
+        <div style="text-align: center">
+            <img class="auto-style1" src="images/logo%20Muni.png" />&nbsp;&nbsp;&nbsp; 
+                <h>
+                    <br />
+                    Facturación Servicios Publicos</h></div>
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-                <p>
-                    Content</p>
+                &nbsp;
             </asp:ContentPlaceHolder>
     </form>
+
 </body>
 </html>

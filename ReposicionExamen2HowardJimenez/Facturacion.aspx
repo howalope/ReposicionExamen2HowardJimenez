@@ -2,7 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <p style="text-align: right">
+    <p style="text-align: left">
         &nbsp;Recibo:
         <asp:Label ID="LRecibo" runat="server"></asp:Label>
     </p>
@@ -25,7 +25,7 @@
     <asp:TextBox ID="TDescuento" runat="server" Height="16px" Width="150px"></asp:TextBox>
     </p>
     <p>
-&nbsp;<asp:Button ID="BAgregar" runat="server" OnClick="BAgregar_Click" Text="Agregar" Width="78px" />
+&nbsp;<asp:Button ID="BAgregar" runat="server" OnClick="BAgregar_Click" Text="Agregar" Width="78px" />        
 &nbsp;&nbsp;&nbsp;&nbsp;
         <asp:Button ID="BSalvar" runat="server" OnClick="BSalvar_Click" Text="Salvar" Width="78px" />
 &nbsp;&nbsp;&nbsp;&nbsp;
